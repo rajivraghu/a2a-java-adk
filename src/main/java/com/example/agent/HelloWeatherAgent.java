@@ -26,7 +26,7 @@ import com.google.adk.tools.FunctionTool;
 import com.google.genai.types.Content;
 import com.google.genai.types.Part;
 import io.reactivex.rxjava3.core.Flowable;
-
+import com.google.adk.tools.GoogleSearchTool;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -41,11 +41,11 @@ public class HelloWeatherAgent {
             .description("Hello World")
             .instruction("""
                 You are a friendly assistant, answering questions in a concise manner.
-                
-                When asked about weather information, you MUST use the `getWeather` function.
+                 Use google search when needed
                 """)
             .model("gemini-2.0-flash")
             .tools(FunctionTool.create(HelloWeatherAgent.class, "getWeather"))
+            //.tools(new GoogleSearchTool())
             .build();
     }
 
