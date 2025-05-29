@@ -6,17 +6,7 @@ Agent Development Kit, and building with [Maven](https://maven.apache.org).
 
 ![](https://google.github.io/adk-docs/assets/agent-development-kit.png)
 
-# Instructions
 
-The following screenshot of the GitHub interface shows how you can use this template project to get started:
-
-![](use-template.png)
-
-> [!TIP]
-> * Check out the GitHub [documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-> about forking and cloning template projects.
-> * Be sure to read the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model) 
-> to better understand how the framework works.
 
 # Setup
 
@@ -118,8 +108,3 @@ to understand what happens when a user converses with the agent.
 Here's a screenshot of the Dev UI in action for your `HelloWeatherAgent` agent:
 
 ![](adk-dev-ui.png)
-
----
-
-> [!NOTE]  
-> This template project is not an official Google project 
